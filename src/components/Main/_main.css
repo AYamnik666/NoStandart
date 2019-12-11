@@ -1,11 +1,17 @@
 .main-container{
     background-color: rgb(200, 171, 228);
-   width: 30%;
-   margin: 10% auto;
+   width: 40%;
+   margin: 1% auto;
 }
 
+
+@media (max-width: 550px) {
+    .main-container {background-color: pink;
+    font-size: 0.5em;}
+    }
+
 .albom-face{
-    width: 90%;
+    width: 70%;
     border: solid black 1px;
     margin: 7%;
 }

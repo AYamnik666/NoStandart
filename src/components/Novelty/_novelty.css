@@ -1,0 +1,19 @@
+
+h3{
+    color: #FF8000;
+}
+.novelty-container{
+
+    text-align: left;
+    width: 10%;
+    margin-left: 3%;
+   color: #793444;
+}
+
+.novelty-container-artist{
+    font-weight: 700;
+}
+
+.novelty-container-albom-name{
+padding-left: 10%;
+}
