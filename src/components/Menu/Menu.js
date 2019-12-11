@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './_menu.css';
 
-import albomFace from '../../assets/images/albomFace.jpg';
+import albomFace from '../../assets/images/logo.png';
 
 
 class Main extends Component {

@@ -31,3 +31,34 @@
     font-size: 1.3em;
     font-weight: 400;
 }
+
+.beauty-face-t-l{
+    width: 5%;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: -15%;
+}
+
+.beauty-face-t-r{
+    width: 5%;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 10%;
+    transform: rotate(90deg);
+}
+
+.beauty-face-b-r{
+    width: 5%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    transform: rotate(180deg);
+}
+
+.beauty-face-b-l{
+    width: 5%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -15%;
+    transform: rotate(90deg);
+}

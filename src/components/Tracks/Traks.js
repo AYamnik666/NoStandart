@@ -8,7 +8,7 @@ class Tracks extends Component {
     render() {
         return (
             <div className='tracks-container'>
-                <h3>все</h3>
+                <h3>Все</h3>
                 <div className='tracks-container-artist'>Ariana Grande</div>
                 <div className='tracks-container-albom-name'>thank u, next</div>
                 <div className='tracks-container-artist'>Anderson .Paak</div>
