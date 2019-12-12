@@ -29,14 +29,7 @@ function App() {
 </svg>
 
          <Menu />
-
-
-
-
-
          <Novelty />
-
-
          <Main />
          <Tracks />
          </div>
