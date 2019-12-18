@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './_menu.css';
+import {NavLink} from "react-router-dom";
 
 import albomFace from '../../assets/images/logo.png';
 
@@ -14,10 +15,10 @@ class Main extends Component {
                        </div>
                        <div>
 <ul className="menu-main">
-  <li><a href="" className="current">Альбомы</a></li>
-  <li><a href="">Клипы</a></li>
-  <li><a href="">Новости</a></li>
-  <li><a href="">Концерты</a></li>
+  <li><a href="" className="current"><NavLink to="/alboms">Альбомы</NavLink></a></li>
+  <li><a href=""><NavLink to="/clips">Клипы</NavLink></a></li>
+  <li><a href=""><NavLink to="/news">Новости</NavLink></a></li>
+  <li><a href=""><NavLink to="/concert">Концерты</NavLink></a></li>
 </ul>
 </div>
 <div className='menu-container-enter'>Вход</div>

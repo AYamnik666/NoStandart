@@ -48,6 +48,8 @@ const App = (props) => {
               <div class='app-wrapper-content'>
                   <Route path='/alboms' component={Alboms}/>
                   <Route path='/clips' component={Clips}/>
+                  <Route path='/news' component={News}/>
+                  <Route path='/concert' component={Concert}/>
               </div>
           </div>
       </BrowserRouter>)
