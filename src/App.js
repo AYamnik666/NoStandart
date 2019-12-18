@@ -1,10 +1,7 @@
 import React from 'react';
 import './App.css';
-import Main from './components/Main/Main';
 import Menu from './components/Menu/Menu';
-import Novelty from './components/Novelty/Novelty';
-import Tops from './components/Tops/Tops';
-import Tracks from './components/Tracks/Traks';
+
 import Footer from './components/Footer/Footer';
 import Clips from './components/Clips/Clips';
 import Alboms from './components/Alboms/Alboms';
@@ -42,15 +39,21 @@ export default App;
 const App = (props) => {
   return (
       <BrowserRouter>
-          <div className='app-wrapper'>
+          <div className='App'>
 
               <Menu/>
-              <div class='app-wrapper-content'>
+
+      {/*  <Main />*/}
+      <div class='app-wrapper'>
                   <Route path='/alboms' component={Alboms}/>
                   <Route path='/clips' component={Clips}/>
                   <Route path='/news' component={News}/>
                   <Route path='/concert' component={Concert}/>
               </div>
+
+
+         <Footer />
+
           </div>
       </BrowserRouter>)
 }
