@@ -18,6 +18,8 @@ import Face from './../Face/Face';
 
 
 
+
+
 class Alboms extends Component {
 
     render() {
@@ -37,11 +39,16 @@ class Alboms extends Component {
             <Novelty />
                  <Tops />
 </div>
+
 <Face />
+
                 <Tracks />
 
                 <Route path='/alboms/face' component={Face}/>
                 <Route path='/alboms/info' component={Info}/>
+
+
+
             </div>
 
 
