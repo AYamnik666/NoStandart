@@ -1,0 +1,101 @@
+.face-container{
+    background-color: rgb(200, 171, 228);
+    width: 90%;
+    height: 100%;
+    margin: 0% auto;
+
+    display: flex;
+    flex-direction:row ;
+    justify-content:space-between  ;
+    align-content:space-between;
+
+ }
+ /*
+ .face-left-list{
+ background-color: turquoise;
+ width: 50%;
+ }*/
+
+
+ @media (max-width: 550px) {
+     .face-container {background-color: pink;
+     font-size: 0.5em;}
+     }
+
+ .face-face{
+     width: 60%;
+     background-color: rgb(243, 185, 174);
+     margin: 0%;
+ }
+
+ .face-face-image{
+     width: 80%;
+     border: solid black 1px;
+     margin: 7%;
+ }
+
+ .face-container-artist{
+     display: flex;
+     flex-direction:column;
+     align-items: flex-start;
+     font-size: 1.5em;
+     font-weight: 700;
+     margin-top: 2%;
+     margin-left: 10%;
+ }
+
+ .face-container-face-name{
+     display: flex;
+     flex-direction:column;
+     align-items: flex-end;
+     font-size: 1.3em;
+     font-weight: 400;
+     margin-right: 10%;
+
+ }
+
+ .beauty-face-t-l{
+     width: 5%;
+     position: absolute;
+     margin-top: 7%;
+     margin-left: -23%;
+ }
+
+ .beauty-face-t-r{
+     width: 5%;
+     position: absolute;
+     margin-top: 7%;
+     margin-left: 18%;
+     transform: rotate(90deg);
+ }
+
+ .beauty-face-b-r{
+     width: 5%;
+     position: absolute;
+     margin-top: 29%;
+     margin-left: 18%;
+     transform: rotate(180deg);
+ }
+
+ .beauty-face-b-l{
+     width: 5%;
+     position: absolute;
+     margin-top: 29%;
+     margin-left: -23%;
+     transform: rotate(90deg);
+ }
+
+ .face-face-arrow-left{
+     width: 40px;
+     position: absolute;
+     margin-top: 15%;
+ }
+
+ .face-face-arrow-right{
+     width: 40px;
+     position: absolute;
+     margin-top: 15%;
+     margin-left: -2%;;
+ }
+
+
