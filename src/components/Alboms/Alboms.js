@@ -13,20 +13,27 @@ class Alboms extends Component {
     render() {
         return (
 
-            <div className='alboms-container'>
-                 <Novelty />
-                 <Tops />
 
+            <div className='alboms-container'>
+<div className='albom-left-list'>
+            <Novelty />
+                 <Tops />
+</div>
+                 <div className='albom-face'>
                  <img src={beauty} className='beauty-face-t-l' />
                  <img src={beauty} className='beauty-face-t-r' />
                  <img src={beauty} className='beauty-face-b-r' />
                  <img src={beauty} className='beauty-face-b-l' />
+
                 <div className='alboms-container-artist'>Chance The Rapper</div>
                 <div className='alboms-container-albom-name'>The Big Day</div>
 
-                <img src={albomFace} className='albom-face' />
+                <img src={albomFace} className='albom-face-image' />
+                </div>
                 <Tracks />
             </div>
+
+
         )
     }
 
