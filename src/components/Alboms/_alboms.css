@@ -41,6 +41,7 @@ width: 50%;
     font-size: 1.5em;
     font-weight: 700;
     margin-top: 2%;
+    margin-left: 10%;
 }
 
 .alboms-container-albom-name{
@@ -49,6 +50,7 @@ width: 50%;
     align-items: flex-end;
     font-size: 1.3em;
     font-weight: 400;
+    margin-right: 10%;
 
 }
 
@@ -81,6 +83,19 @@ width: 50%;
     margin-top: 29%;
     margin-left: -23%;
     transform: rotate(90deg);
+}
+
+.albom-face-arrow-left{
+    width: 40px;
+    position: absolute;
+    margin-top: 15%;
+}
+
+.albom-face-arrow-right{
+    width: 40px;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: -2%;;
 }
 
 
