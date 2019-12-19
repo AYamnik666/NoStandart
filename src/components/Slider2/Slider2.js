@@ -11,7 +11,7 @@ const content = [
       title: "1111",
       description:
         "first",
-      image: {infoFace}
+      image:     infoFace
     },
     {
       title: "222",
@@ -23,7 +23,7 @@ const content = [
       title: "333",
       description:
       "thierd",
-      image: "https://i.imgur.com/DvmN8Hx.jpg"
+      image: "../../assets/images/Day.png"
     }
   ];
 
@@ -31,40 +31,37 @@ const content = [
   function SliderItem({ item }) {
     return (
       <div
-        className="slider-content"
-        style={{ background: `url('${item.image}') no-repeat center center` }}
+      /*  className="slider-content"
+        style={{ background: `url('${item.image}') no-repeat center center` }}*/
+
       >
+             <img src='${item.image}' />
+
+
         <div className="inner">
           <h1>{item.title}</h1>
           <p>{item.description}</p>
         </div>
         <section>
           <img src={item.userProfile} alt={item.user} />
-
         </section>
       </div>
     );
   }
-
-
-
 
 class Slider2 extends Component {
 
     render() {
         return (
             <div>
-
-
-
-
     <Slider className="slider-wrapper">
       {content.slice(0, 3).map((item, index) => (
         <div
           key={index}
           className="slider-content"
-          style={{ background: `url('${item.image}') no-repeat center center` }}
+          style={{ background: `url('${item.image} no-repeat center center` }}
         >
+             <img src={infoFace}   className="slider-img"/>
           <div className="inner">
             <h1>{item.title}</h1>
             <p>{item.description}</p>
@@ -81,3 +78,6 @@ class Slider2 extends Component {
 }
 
 export default Slider2;
+
+
+{/*https://codesandbox.io/s/jzww6lm345*/ }
