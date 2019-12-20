@@ -6,6 +6,7 @@ import con3 from '../../assets/images/concert3.jpg';
 import con4 from '../../assets/images/concert4.jpg';
 import con5 from '../../assets/images/concert5.jpg';
 import con6 from '../../assets/images/concert6.jpg';
+import beauty from '../../assets/images/beauty.png';
 
 const        content=[
     {
@@ -125,6 +126,10 @@ class Concert extends Component {
 
       {content.map((item, index) => (
            <div className="concert-container">
+               <img src={beauty} className='beauty-face-t-l' />
+            <img src={beauty} className='beauty-face-t-r' />
+            <img src={beauty} className='beauty-face-b-r' />
+            <img src={beauty} className='beauty-face-b-l' />
         <div key={index}  className="concert-title" >
         <div className='concert-title'>{item.title} </div>
         <div className='concert-description'> {item.description} </div>
