@@ -36,8 +36,6 @@ const content = [
 
       >
              <img src='${item.image}' />
-
-
         <div className="inner">
           <h1>{item.title}</h1>
           <p>{item.description}</p>

@@ -15,7 +15,7 @@ class Main extends Component {
                        </div>
                        <div>
 <ul className="menu-main">
-  <li><a href="" className="current"><NavLink to="/alboms">Альбомы</NavLink></a></li>
+  <li><a href="" ><NavLink to="/alboms">Альбомы</NavLink></a></li>
   <li><a href=""><NavLink to="/clips">Клипы</NavLink></a></li>
   <li><a href=""><NavLink to="/news">Новости</NavLink></a></li>
   <li><a href=""><NavLink to="/concert">Концерты</NavLink></a></li>

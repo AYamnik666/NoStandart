@@ -8,6 +8,7 @@
    flex-direction:row ;
    justify-content:space-between  ;
    align-content:space-between;
+   color: #793444;
 
 }
 /*
@@ -30,7 +31,6 @@ width: 50%;
 
 .albom-face-image{
     width: 80%;
-    border: solid black 1px;
     margin: 7%;
 }
 
