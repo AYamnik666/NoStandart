@@ -5,25 +5,25 @@ import "./_slider2.css";
 
 
 import infoFace from '../../assets/images/Day.png';
+import infoAlbom from '../../assets/images/hand2.jpg';
+import listAlbom from '../../assets/images/List.jpg';
 
 const content = [
     {
       title: "1111",
       description:
-        "first",
+        "",
       image:     infoFace
     },
     {
       title: "222",
-      description:
-       "second",
-      image: "https://i.imgur.com/DCdBXcq.jpg"
+      description:'',
+      image: infoAlbom
     },
     {
       title: "333",
-      description:
-      "thierd",
-      image: "../../assets/images/Day.png"
+      description:'',
+      image: listAlbom
     }
   ];
 
@@ -61,7 +61,7 @@ class Slider2 extends Component {
           className="slider-content"
           style={{ background: `url('${item.image} no-repeat center center` }}
         >
-             <img src={infoFace}   className="slider-img"/>
+             <img src={item.image}   className="slider-img"/>
           <div className="inner">
             <h1>{item.title}</h1>
             <p>{item.description}</p>

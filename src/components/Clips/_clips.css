@@ -1,3 +1,37 @@
-clips-container{
+.clips-container{
     background-color: brown;
+    color: #702737;
+}
+
+.clip-container-video{
+width: 70%;
+height: 60%;
+margin-top: 4%;
+}
+
+.clips-face-image{
+    width: 70%;
+    margin-top: 0%;
+}
+
+.clips-container-artist{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 2%;
+    margin-left: 15%;
+    color: #702737;
+}
+
+.clips-container-albom-name{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-right: 15%;
+    color: #702737;
+
 }

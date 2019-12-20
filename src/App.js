@@ -40,9 +40,7 @@ const App = (props) => {
   return (
       <BrowserRouter>
           <div className='App'>
-
               <Menu/>
-
       {/*  <Main />*/}
       <div class='app-wrapper'>
                   <Route path='/alboms' component={Alboms}/>
@@ -50,10 +48,7 @@ const App = (props) => {
                   <Route path='/news' component={News}/>
                   <Route path='/concert' component={Concert}/>
               </div>
-
-
          <Footer />
-
           </div>
       </BrowserRouter>)
 }
