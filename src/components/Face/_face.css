@@ -72,7 +72,7 @@
  .beauty-face-b-r{
      width: 5%;
      position: absolute;
-     margin-top: 33%;
+     margin-top: 30%;
      margin-left: 49%;
      transform: rotate(180deg);
  }
@@ -80,7 +80,7 @@
  .beauty-face-b-l{
      width: 5%;
      position: absolute;
-     margin-top: 33%;
+     margin-top: 30%;
      margin-left: 10%;
      transform: rotate(90deg);
  }
