@@ -1,0 +1,26 @@
+.login-container{
+    background-color: rgba(252, 250, 249, .8);
+    border: solid black 1px;
+    width: 600px;
+    height: 300px;
+    margin: 10% auto;
+}
+
+.login-container-input{
+    width: 70%;
+    margin-top: 5%;
+}
+
+.login-container-submit{
+    border-radius:10 ;
+}
+
+.login-container-submit{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10% auto;
+    width: 20%;
+    height: 30%;
+    margin: 10% auto;
+    background-color: #FF8000;
+}

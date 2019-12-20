@@ -8,6 +8,9 @@ import Alboms from './components/Alboms/Alboms';
 import News from './components/News/News';
 import Concert from './components/Concert/Concert';
 import {BrowserRouter, Route} from "react-router-dom";
+import Login from './components/Login/Login';
+import Reg from './components/Reg/Reg';
+
 
 {/*
 
@@ -46,7 +49,9 @@ const App = (props) => {
                   <Route path='/alboms' component={Alboms}/>
                   <Route path='/clips' component={Clips}/>
                   <Route path='/news' component={News}/>
-                  <Route path='/concert' component={Concert}/>
+                  <Route path='/concert' component={ Concert}/>
+                  <Route path='/logIn' component={Login}/>
+                  <Route path='/reg' component={Reg}/>
               </div>
          <Footer />
           </div>

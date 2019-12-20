@@ -1,0 +1,26 @@
+.reg-container{
+    background-color: rgba(112, 39, 55, 0.9);
+    border: solid black 1px;
+    width: 600px;
+    height: 300px;
+    margin: 10% auto;
+}
+
+.reg-container-input{
+    width: 70%;
+    margin-top: 5%;
+}
+
+.reg-container-submit{
+    border-radius:10 ;
+}
+
+.reg-container-submit{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10% auto;
+    width: 20%;
+    height: 30%;
+    margin: 10% auto;
+    background-color: #FF8000;
+}

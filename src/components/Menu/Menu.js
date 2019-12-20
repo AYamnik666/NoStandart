@@ -3,9 +3,11 @@ import './_menu.css';
 import {NavLink} from "react-router-dom";
 
 import albomFace from '../../assets/images/logo.png';
+import Login from '../Login/Login';
+import Reg from '../Reg/Reg';
 
 
-class Main extends Component {
+class Menu extends Component {
 
     render() {
         return (
@@ -21,11 +23,11 @@ class Main extends Component {
   <li><a href=""><NavLink to="/concert">Концерты</NavLink></a></li>
 </ul>
 </div>
-<div className='menu-container-enter'>Вход</div>
-<div className='menu-container-enter'>Регистрация</div>
+<div className='menu-container-enter'><NavLink to="/login">Вход</NavLink></div>
+<div className='menu-container-enter'><NavLink to="/reg">Регистрация</NavLink></div>
             </div>
         )
     }
 }
 
-export default Main;
+export default Menu;
