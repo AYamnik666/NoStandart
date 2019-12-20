@@ -1,5 +1,4 @@
 .alboms-container{
-   background-color: rgb(200, 171, 228);
    width: 90%;
    height: 100%;
    margin: 0% auto;
@@ -11,21 +10,13 @@
    color: #793444;
 
 }
-/*
-.albom-left-list{
-background-color: turquoise;
-width: 50%;
-}*/
-
 
 @media (max-width: 550px) {
-    .alboms-container {background-color: pink;
-    font-size: 0.5em;}
+    font-size: 0.5em;
     }
 
 .albom-face{
     width: 60%;
-    background-color: rgb(243, 185, 174);
     margin: 0%;
 }
 

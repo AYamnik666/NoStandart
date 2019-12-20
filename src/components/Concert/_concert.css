@@ -1,5 +1,4 @@
 .concert-wrapper{
-    background-color: turquoise;
     width: 100%;
     height: 100%;
     display: flex;
@@ -10,19 +9,16 @@
 }
 
 .concert-container{
-    background-color: rgb(210, 223, 29);
     width: 30%;
     height: 40%;
 
 }
 
 .concert-title{
-    background-color: rgb(250, 41, 180);
     height: 30%;
 }
 
 .concert-description{
-    background-color: teal;
     height: 30%;
     text-align: right;
     width: 100%;
