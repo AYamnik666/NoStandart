@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './_face.css';
-import beauty from '../../assets/images/beauty.png';
+import beautyy from '../../assets/images/beauty.png';
 import arrowl from '../../assets/images/arrowl.svg'  ;
 import arrowr from '../../assets/images/arrowr.svg';
 import infoFace from '../../assets/images/Day.png';
@@ -26,12 +26,12 @@ class Face extends Component {
             <Slider2  className='face-container'/>
 </div>
 
-<img src={beauty} className='beauty-face-t-l' />
-            <img src={beauty} className='beauty-face-t-r' />
-            <img src={beauty} className='beauty-face-b-r' />
-            <img src={beauty} className='beauty-face-b-l' />
+<img src={beautyy} className='beautyy-face-t-l' />
+            <img src={beautyy} className='beautyy-face-t-r' />
+            <img src={beautyy} className='beautyy-face-b-r' />
+            <img src={beautyy} className='beautyy-face-b-l' /> 
             </div>
-
+       
         )
     }
 }

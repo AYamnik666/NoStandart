@@ -12,33 +12,6 @@ import Login from './components/Login/Login';
 import Reg from './components/Reg/Reg';
 
 
-{/*
-
-const App = (props) => {
-  return (
-    <BrowserRouter>
-          <div className='App'>
-          <Menu />
-         <Novelty />
-        <Main />
-         <Tracks />
-         <Tops />
-
-         <Footer />
-  <div class='app-wrapper-content'>
-                  <Route path='/alboms' component={Alboms}/>
-                  <Route path='/clips' component={Clips}/>
-                  <Route path='/news' component={News}/>
-                  <Route path='/concert' component={Concert}/>
-              </div>
-
-              </BrowserRouter>
-      )
-}
-
-export default App;
-*/}
-
 const App = (props) => {
   return (
       <BrowserRouter>

@@ -1,7 +1,7 @@
 .face-container{
     width: 70%;
     height: 100%;
-    margin: 50%% auto;
+    margin: 0% auto;
 
     display: flex;
     flex-direction:row ;
@@ -18,11 +18,15 @@
  .face-face{
      width: 60%;
      margin: 20%;
+     border: solid 1px rgb(197, 59, 59);
+     
  }
 
  .face-face-image{
-     width: 90%;
+     width: 70%;
      margin:  7%;
+     
+    
  }
 
  .face-container-artist{
@@ -45,34 +49,34 @@
 
  }
 
- .beauty-face-t-l{
+ .beautyy-face-t-l{
      width: 5%;
      position: absolute;
      margin-top: 10%;
-     margin-left: 10%;
+     margin-left: 3%;
  }
 
- .beauty-face-t-r{
+ .beautyy-face-t-r{
      width: 5%;
      position: absolute;
      margin-top: 10%;
-     margin-left: 49%;
+     margin-left: 45%;
      transform: rotate(90deg);
  }
 
- .beauty-face-b-r{
+ .beautyy-face-b-r{
      width: 5%;
      position: absolute;
      margin-top: 30%;
-     margin-left: 49%;
+     margin-left: 45%;
      transform: rotate(180deg);
  }
 
- .beauty-face-b-l{
+ .beautyy-face-b-l{
      width: 5%;
      position: absolute;
      margin-top: 30%;
-     margin-left: 10%;
+     margin-left: 3%;
      transform: rotate(90deg);
  }
 

@@ -1,12 +1,11 @@
 .news-main-main{
-background-color: #fff;
 width: 100%;
 color: #702737;
 }
 .news-main{
     text-align: left;
     margin: 3% 3%;
-    font-size: 20pt;
+    font-size: 18pt;
     font-weight: 600;
 }
 
@@ -24,7 +23,7 @@ color: #702737;
     flex-direction:row;
     flex-wrap:wrap;
     justify-content:space-evenly;
-    padding: 2% 2%;
+    padding: 1% 2%;
 }
 
 .news-container{

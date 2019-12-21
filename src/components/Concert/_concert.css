@@ -40,30 +40,30 @@
 .beauty-face-t-l{
     width: 2%;
     position: absolute;
-    margin-top: 4%;
-    margin-left: -9%;
+    margin-top: 5%;
+    margin-left: -12%;
 }
 
 .beauty-face-t-r{
     width: 2%;
     position: absolute;
-    margin-top: 4%;
-    margin-left: 40%;
+    margin-top: 5%;
+    margin-left: 43%;
     transform: rotate(90deg);
 }
 
 .beauty-face-b-r{
     width: 2%;
     position: absolute;
-    margin-top: 12%;
-    margin-left: 40%;
+    margin-top: 17%;
+    margin-left: 43%;
     transform: rotate(180deg);
 }
 
 .beauty-face-b-l{
     width: 2%;
     position: absolute;
-    margin-top: 12%;
-    margin-left: -9%;
+    margin-top: 17%;
+    margin-left: -12%;
     transform: rotate(90deg);
 }
